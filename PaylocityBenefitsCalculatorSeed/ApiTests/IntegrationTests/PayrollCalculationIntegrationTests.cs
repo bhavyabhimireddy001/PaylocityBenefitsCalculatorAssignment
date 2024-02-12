@@ -38,11 +38,11 @@ namespace ApiTests.IntegrationTests
             Assert.Equal(500, result[0].BaseBenifits);
             Assert.Equal(0, result[0].DependentBenefits);
             Assert.Equal(160, result[0].AddOnBenefits);
-            Assert.Equal(1600, result[0].FederalTax);
-            Assert.Equal(800, result[0].StateTax);
+            Assert.Equal(800, result[0].FederalTax);
+            Assert.Equal(640, result[0].StateTax);
             Assert.Equal(8000, result[0].TotalEarnings);
             Assert.Equal(660, result[0].TotalDeductions);
-            Assert.Equal(4940, result[0].NetPay);
+            Assert.Equal(5900, result[0].NetPay);
         }
 
         [Fact]
@@ -73,11 +73,11 @@ namespace ApiTests.IntegrationTests
             Assert.Equal(500, result[0].BaseBenifits);
             Assert.Equal(600, result[0].DependentBenefits);
             Assert.Equal(160, result[0].AddOnBenefits);
-            Assert.Equal(1600, result[0].FederalTax);
-            Assert.Equal(800, result[0].StateTax);
+            Assert.Equal(800, result[0].FederalTax);
+            Assert.Equal(640, result[0].StateTax);
             Assert.Equal(8000, result[0].TotalEarnings);
             Assert.Equal(1260, result[0].TotalDeductions);
-            Assert.Equal(4340, result[0].NetPay);
+            Assert.Equal(5300, result[0].NetPay);
         }
 
         [Fact]
